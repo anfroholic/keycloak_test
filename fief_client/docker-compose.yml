@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  doit:
+  fief_client:
       build: 
         context: ./
         dockerfile: Dockerfile
-      command: uvicorn key_it:app --host 0.0.0.0 --port 8081 --reload
+      command: uvicorn main:app --host 0.0.0.0 --port 8081 --reload
       environment: 
         PYTHONUNBUFFERED: 1
         SECRET_KEY: "7ed60dd91c5ea97f310650a7598201109cf4e587e826d112e93d3f746ba7fd97"

@@ -4,3 +4,4 @@ uvicorn
 redis
 python-jose[cryptography]
 passlib[bcrypt]
+fief-client[fastapi]
