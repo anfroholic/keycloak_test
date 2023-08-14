@@ -4,11 +4,12 @@ from fief_client import FiefAccessTokenInfo, FiefAsync
 from fief_client.integrations.fastapi import FiefAuth
 
 # https://docs.fief.dev/
+# https://docs.fief.dev/integrate/python/fastapi/
 
 fief = FiefAsync(
-    "http://localhost:8081",
-    "K4R0Zd1oSLVFN-uXp5Rx07T-drBAFr7lugbcGxIg3gs",
-    "rKfRI-_hTZyjKpbNVkmHoNH1RhwYqwWhS4Nt58f3dkE",
+    "http://localhost:8000",
+    "zWwRnbXZjpDi_azO19tI4EWCrpchtOuo__8yZGger74",
+    "-dmHFrDOXJnGzEmpIHuchziPYei_7UWeCn8UOraNUqU",
 )
 
 scheme = OAuth2AuthorizationCodeBearer(
